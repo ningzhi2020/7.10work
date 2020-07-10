@@ -1,0 +1,75 @@
+.con{
+    width: 100%;
+    margin: 0 auto;
+}
+.con::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.con-row{
+    width: 100%;
+    height: auto;
+}
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-md8-1,.col-md8-2,
+.col-md8-3,.col-md8-4,.col-md8-5,.col-md8-6,.col-md8-7,.co-md8-8,.col-md8-9,.col-md8-10,.col-md8-11,.col-md8-12,.col-lg10-1,.col-lg10-2,.col-lg10-3,.col-lg10-4,.col-lg10-5,.col-lg10-6,.col-lg10-7,.col-lg10-8,.col-lg10-9,.col-lg10-10,.col-lg10-11,.col-lg10-12{
+            float: left;
+            box-sizing: border-box;
+            padding: 0 15px;
+        } 
+        .col-lg10-1{
+            width: 10%;
+        }
+        .col-lg10-2{
+            width: 20%;
+        }
+        .col-lg10-3{
+            width: 30%;
+        }
+           .col-lg10-4{
+               width: 40%;
+           }
+           .col-lg10-5{
+               width: 50%;
+           }
+           .col-lg10-6{
+               width: 60%;
+           }
+           .col-lg10-7{
+               width: 70%;
+           }
+           .col-lg10-8{
+               width: 80%;
+           }
+           .col-lg10-9{
+               width: 90%;
+           }
+           .col-lg10-10{
+               width: 100%;
+           }
+@media screen and (max-width:1260px){
+    .col-md8-1{
+        width: 12.5%;
+    }
+    .col-md8-2{
+        width: 25%;
+    }
+    .col-md8-3{
+        width: 37.5%;
+    }
+    .col-md8-4{
+        width: 50%;
+    }
+    .col-md8-5{
+        width: 62.5%;
+    }
+    .col-md8-6{
+        width: 75%;
+    }
+    .col-md8-7{
+        width: 87.5%;
+    }
+    .col-md8-8{
+        width: 100%;
+    }
+}

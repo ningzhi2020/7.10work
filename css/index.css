@@ -1,0 +1,615 @@
+/* 去除默认样式 */
+body{
+    margin: 0;
+    background: #f2f2f2 !important;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input{
+    padding: 0;
+}
+.top{
+    width: 1260px;
+    height: 32px;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+.top a,span{
+    line-height: 32px;
+    color: #999;
+    font-size: 12px;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    display: inline-block;
+}
+.top-login{
+    padding: 0 10px 0 20px;
+}
+.top-register{
+    padding: 0 10px;
+}
+.top-right{
+    float: right;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1917910 */
+    src: url('//at.alicdn.com/t/font_1917910_qlfmj5d7ui.eot');
+    src: url('//at.alicdn.com/t/font_1917910_qlfmj5d7ui.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1917910_qlfmj5d7ui.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1917910_qlfmj5d7ui.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1917910_qlfmj5d7ui.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1917910_qlfmj5d7ui.svg#iconfont') format('svg');
+}
+.top-right ul li{
+    float: left;
+    line-height: 32px;
+    font-size: 12px;
+    color: #ff0036;
+    padding: 0 10px;
+    font-family: "iconfont";
+}
+.header{
+    height: 130px;
+    background-color: #fff;
+}
+.header-content{
+    width: 1320px;
+    height: 130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content img{
+    width: 240px;
+    height: 130px;
+    margin: 1px 0;
+    float: left;
+    display: block;
+    z-index: 1;
+}
+.header-search{
+    width: 627px;
+    height: 40px;
+    margin: 0 auto;
+    margin-left: 100px;
+}
+.header-search input{
+    height: 36px;
+    width: 491px;
+    outline:none;
+    border:2px solid #ff0036;
+    margin-top: -1px;
+    float: left;
+}
+.header-search button{
+    cursor: pointer;
+    color: #fff;
+    background-color: #FF0036;
+    line-height: 36px;
+    width: 132px;
+    height: 36px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    outline: none;
+    border: none;
+    margin-top: -1px;
+    float: left;
+}
+
+.inner{
+    background-color: #fff;
+    height: 36px;
+    border-bottom: 1.5px solid #FF0036;
+}
+.inner1{
+    width: 1260px;
+    margin: 0 auto;
+}
+.inner-catalog{
+    width: 200px;
+    background-color: #ff0036;
+    font-family: "iconfont";
+    color: #fff;
+    line-height: 36px;
+    padding: 0 0 0 14px;
+    float: left;
+}
+.inner2{
+    float: left;
+    line-height: 36px;
+}
+.inner2 a{
+    padding: 0 8px;
+    line-height: 36px;
+    color: #333;
+    font-size: 16px;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.inner2 img{
+    width: 100px;
+    height: 30px;
+    margin-bottom: px;
+}
+
+.banner{
+    background-color: #fff;
+}
+.banner1{
+    margin: 0 auto;
+    width: 1230px;
+    height: 500px;
+    background: url(../imgs/banner1.jpg) no-repeat;
+}
+.banner1-catalog{
+    width: 200px;
+    height: 500px;
+    background-color: rgba(0,0,0,.55);
+    margin-left: -14px;
+}
+.banner1-catalog li{
+    height: 31.2px;
+    line-height: 31.2px;
+    color: #fff;
+}
+.banner1-catalog li span{
+    padding: 0 6px 0 14px;
+    font-family: "iconfont";
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.55;
+}
+.banner1-catalog li a{
+    height: 31px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.brandwall{
+    width: 1260px;
+    height: 370px;
+    
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.brand-item{
+    width: 230px;
+    margin-left: -45px;
+    float: left;
+    box-sizing: border-box;
+}
+.brandwall .brand-itemm{
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+.brand-itemmm{
+    border-left: 15px solid #f2f2f2;
+}
+.brand-item span{
+    height: 55px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 54px;
+    font-family: "iconfont";
+    margin-left: 10px;
+}
+.brand-item span:nth-of-type(2){
+    font-size: 14px;
+}
+.brand-item span:last-of-type{
+    color: #999;
+    font-weight: 300;
+    font-size: 20px;
+    float: right;
+    margin-right: 10px;
+}
+.brand-item img{
+    height: 316px; 
+}
+.brand-item1{
+    /* background-color: brown; */
+    margin-left: 170px !important;
+}
+.brand-item1 span{
+    height: 55px;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 54px;
+    font-family: "iconfont";
+    margin-left: 10px;
+    background-color: #fff;
+    float: left;
+}
+.brand-item1 span:nth-of-type(2){
+    font-size: 14px;
+}
+.brand-item1 span:last-of-type{
+    color: #999;
+    font-weight: 300;
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+}
+.brand-item1 img{
+    /* height: 316px; */
+    margin: 0 auto;
+    width:100%;
+}
+
+/* brandlogo开始 */
+.brandlogo{
+    width: 1260px;
+    /* background: orange; */
+margin: 0 auto;
+    overflow: hidden;
+}
+.brandlogo-container{
+    width: 1260px;
+    height: 327px;
+    margin:15px 0 auto;
+    padding-right: 30px;
+    /* background: palegreen; */
+}
+.brandlogo-item{
+    width: 122px;
+    height: 108px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    /* background:red; */
+    position: relative;
+    float: left;
+}
+/* brandlogo结束 */
+/* 天猫超市开始 */
+.new-floor-con {
+    margin: 20px auto 0;
+    width: 1260px;
+    padding-right: 30px;
+}
+.floor-line-con {
+    margin-top: 20px;
+    width: 100%;
+    height: 665px;
+    position: relative;
+}
+.floor-name {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #000;
+    height: 28px;
+}
+.floor-name img{
+    vertical-align: middle;
+    width: 214px;
+    height: 25px;
+}
+.line-body {
+    width: 100%;
+    height: 618px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.fp-content-loading {
+    background: url(//img.alicdn.com/tps/TB1FEsePXXXXXcqXXXXXXXXXXXX-80-80.gif) 50% 50% no-repeat #f5f5f5!important;
+}
+
+.big-banner-con-2 {
+    float: left;
+    position: relative;
+    width: 235px;
+    height: 618px;
+}
+.big-banner-con-2 img {
+    display: block;
+    width: 100%;
+    height: 618px;
+    transition: opacity .3s ease-out;
+}
+.banner-detail {
+    position: absolute;
+    vertical-align: middle;
+    bottom: 20%;
+    width: 218px;
+    height: 64px;
+}
+.left-title-wrap {
+    background: rgba(0,0,0,.9);
+    width: 70px;
+    height: 64px;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.left-title {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 18px;
+    width: 36px;
+    overflow: hidden;
+}
+.right-title-wrap {
+    left: 70px;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    overflow: hidden;
+    width: 128px;
+    height: 64px;
+    color: #FFF;
+    vertical-align: middle;
+}
+.right-title-absolute {
+    margin-top: 8px;
+    margin-left: 14px;
+}
+.right-title {
+    display: block;
+    line-height: 24px;
+    font-size: 18px;
+}
+.detail-wrap {
+    background-image: linear-gradient(-180deg,rgba(0,0,0,0) 4%,rgba(0,0,0,.36) 100%);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.detail-wrap .floor-arrow-big{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    display: block;
+    transition: opacity .3s ease-out;
+}
+.big-banner-con-2 img {
+    display: block;
+    transition: opacity .3s ease-out;
+}
+.middle-column-con {
+    width: 995px;
+    height: 618px;
+    float: left;
+    overflow: hidden;
+}
+.grid {
+    float: left;
+    display: block;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+    background-color: #fff;
+}
+.grid.two-grid {
+    width: 484px;
+    height: 301px;
+    margin-left: 13px;
+}
+.floor-tabs {
+    width: 462px;
+    height: 282px;
+    margin: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.09);
+}
+.floor-tab-head{
+    overflow: hidden;
+    background: #f1f1f1;
+}
+.floor-tab-head li{
+    float: left;
+    color: #000;
+    height: 57px;
+    width: 191px;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.tab-title{
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 20px
+}
+.floor-tab-detail {
+    height: 225px;
+    width: 462px;
+}
+.right-detail-a {
+    height: 225px;
+    width: 462px;
+    display: block;
+}
+.right-detail {
+    position: absolute;
+    top: 153px;
+    height: 87px;
+    width: 291px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-color: rgba(0,0,0,0);
+    background-image: url(https://img.alicdn.com/tfs/TB1AnTXewMPMeJjy1XcXXXpppXa-290-87.png);
+    z-index: 99;
+}
+.title-wrap {
+    margin-left: 26px;
+    margin-top: 8px;
+    vertical-align: middle!important;
+}
+.cla-icon {
+    width: 23px;
+    height: 23px;
+    margin-top: -10px;
+}
+.grid img {
+    z-index: 1;
+    transition: right .3s;
+}
+.tab-item-title {
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tab-desp {
+    margin-left: 26px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.item-img {
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+}
+.grid {
+    float: left;
+    display: block;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+    background-color: #fff;
+    text-decoration: none;
+}
+.one-grid-price {
+    width: 235px;
+    height: 301px;
+    margin-left: 13px;
+    text-align: center;
+}
+
+.floor-item-content-wrap {
+    width: 234px;
+    height: 300px;
+    border: 1px solid #fff;
+}
+ .floor-line-con .floor-item-tag {
+    width: 68px;
+    height: 20px;
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+ .grid.one-grid-price img {
+    width: 185px;
+    height: 185px;
+}
+.floor-item-title {
+    width: 135px;
+    height: 40px;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 8px auto;
+}
+.floor-price {
+    font-size: 18px;
+    color: #FF0036;
+    line-height: 18px;
+    margin: 10px auto;
+}
+/* 天猫超市结束 */
+/*底部开始*/
+.footer{
+    width: 100%;
+    height: 602.2px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color:#fff;
+}
+.tmall-ensure{
+    width: 1190px;
+    height: 100px;
+    background: url(../imgs/footer1.jpg) no-repeat;
+    margin: 25px auto;
+    padding: 0;
+    
+}
+.tmall-desc{
+    width: 1190px;
+    height: 190px;
+    margin: auto;
+    padding-top: 22px;
+    border-top: 1px solid #ededed;
+    background: url(../imgs/footer2.png) 45px bottom no-repeat;
+
+}
+.tmall-desc ul{
+    width: 238px;
+    height: 90px;
+    float: left;
+    padding-left: 52px;
+    
+}
+.t-tittle{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+.tmall-desc ul li{
+    color: #8b8b8b;
+    line-height: 20px;
+}
+.tmall-desc ul t-img{
+    background-color: aqua;
+}
+.bottom{
+    width: 100%;
+    background-color: #000;
+    height: 220px;
+    border-top: 2px solid #ff0036;
+}
+.bottom1{
+    width: 1260px;
+    height: 220px;
+    margin: 0 auto;
+}
+.bottom1 p{
+    color: #fff;
+    margin: 0 10px;
+    padding: 5px 0;
+}
+.bottom1 a{
+    color: #fff;
+    line-height: 25px;
+    font-size: 12px;
+    margin-right: 3px;
+    cursor: pointer;
+    /* box-sizing: content-box; */
+}
+.bottom1-bb span{
+    line-height: 20px;
+    color: #a4a4a4;
+    font: 12px/1.5;
+    margin-right: 65px;
+    font-weight: 500;
+}
+.bbb{
+    margin-bottom: 5px;
+}
+.bottom1-bb .bbbb{
+    color:#686868;
+    font-weight: 400;
+}
+/*底部结束*/
